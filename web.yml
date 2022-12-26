@@ -1,0 +1,6 @@
+- name: install dialog package
+  hosts: all
+  tasks:
+    packages:
+      name: dialog
+      state: present
